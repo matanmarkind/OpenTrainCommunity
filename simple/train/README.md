@@ -6,9 +6,10 @@ You need to work on python3.*. Best is to work on virtualenv
 mkvirtualenv -p $(which python3) opentrain
 ```
 
-You might need to install virtualenv package before, running:
+For MAC you might need to install virtualenv package before, running:
 ```
 sudo pip install virtualenv
+virtualenv -p $(which python3) opentrain
 ```
 
 Then run the environnement,
