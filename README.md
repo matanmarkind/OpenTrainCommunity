@@ -27,6 +27,11 @@ pip install -r requirements.txt
 ```
 
 **If you are working with postgres, make sure that you install the postgres server for your own OS (not only the psql client)**
+For Ubuntu to install postgress (may be needed to run requirements) do the following in terminal:
+$ sudo apt-get install postgresql-9.1
+$ sudo apt-get install python-psycopg2
+$ sudo apt-get install libpq-dev
+
 
 **NOTE:** If you plan to work with sqlite3, do the following changes:
 
